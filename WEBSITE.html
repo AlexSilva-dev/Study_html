@@ -1,0 +1,61 @@
+<style>
+    .p:hover{
+    font-size: 20;
+    }
+
+
+
+    .b{
+    position: relative;
+    opacity: 1;
+
+    }
+
+    @keyframes fadeInText {
+        from{
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .a{
+        position: relative;
+        overflow: hidden;
+
+
+    }
+
+
+    .a:after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #f29707;
+        transform: translatex(-100%);
+        animation: reveaLBlock 0.5 1.1s both;
+    }
+
+    @keyframes reveaLBlock {
+        from {
+            transform: translateX(0%);
+        }
+        to {
+            transform: translatex(100%);
+        }
+    }
+
+</style>
+
+
+
+<div class="a">
+    <h1 class="b">Página Home</h1>
+
+</div>
+<p class="p">Meu conteúdo</p>
+<a href="https://www.youtube.com/watch?v=G3e-cpL7ofc" target="_blank">Hello</a>
