@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-Wffwnccsyr4L4g4B95/R0WNs24A1fZGQ2YV7wlWXtW8oV7q3h1bcBt7iOE+1X9v84a4SMEaA7hD6vfG2OvP0Kw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+    .div-carta {
+        border: 10px solid black;
+        border-radius: 10px;
+        padding: 20px;
+
+    }
+
+    p {
+        font-family: 'Lobster';
+    }
+
+    .h1 {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .p-5meses {
+        color: rgb(112, 5, 5);
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .p-frase {
+        text-align: center;
+    }
+
+    .img-coracao {
+        max-width: 10%;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    .h2{
+        font-family: 'Lobster';
+        text-align: center;
+    }
+    .img-ju{
+        max-width: 90%;
+    
+        display: block;
+        margin: 0 auto;
+        border-radius: 30px;
+    }
+
+    #popup-toggle {
+        display: none;
+    }
+
+    #popup-label {
+        margin-left: 80%;
+        display: inline-block;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    #popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        max-height: 80%;
+        transform: translate(-50%, -50%);
+        padding: 30px;
+        background-color: red;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    #popup-toggle:checked+#popup-label+#popup {
+        
+        display: block;
+    }
+</style>
+
+<body>
+
+    <h1 class="h1">Mensagem para a mulher que amo:</h1>
+
+    <div class="div-carta">
+        <p class="p-5meses">
+            Um feliz, 5 meses meu amor!!!
+        </p>
+
+        <p class="p-frase">
+            5 meses que estou com vc, a mulher mais importante da minha vida, vc é especial para mim e muito importante
+            no
+            meu dia.
+            Que velham mais 2 meses que estejamos juntos, depois mais 4, mais 6, até que fiquemos uma vida inteira, te
+            amo!
+        </p>
+
+
+        <img class="img-coracao" src="assets/coracao1.png" alt="icone">
+
+        
+        <input type="checkbox" id="popup-toggle" />
+        <label for="popup-toggle" id="popup-label">Pegar papel</label>
+        <div id="popup">
+            <h2 class="h2">A mais gata</h2>
+            <img class="img-ju" src="assets/Juliane.jpeg" alt="Juliane">
+        </div>
+    </div>
+
+
+
+
+</body>
+
+
+
+</html>
