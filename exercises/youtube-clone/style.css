@@ -93,6 +93,6 @@
     padding: 50px;
 }
 
-.img-googleLogo{
+.img-googleLogo, .input-google{
     display: inline-block;
 }
