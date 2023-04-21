@@ -92,3 +92,7 @@
     border: 1px solid gray;
     padding: 50px;
 }
+
+.img-googleLogo{
+    display: inline-block;
+}
