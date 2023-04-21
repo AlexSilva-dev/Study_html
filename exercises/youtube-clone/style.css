@@ -24,7 +24,7 @@
     
 }
 
-.input-google{
+.input-google, .input-url{
     margin-top: 40px;
 
     font-size: 18px;
@@ -84,4 +84,11 @@
     color: aliceblue;
     
 
+}
+
+
+.div-google{
+    margin-top: 50px;
+    border: 1px solid gray;
+    padding: 50px;
 }
